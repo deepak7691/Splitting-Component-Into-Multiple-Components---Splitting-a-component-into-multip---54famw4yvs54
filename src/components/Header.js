@@ -1,10 +1,12 @@
 import React from "react";
 
-const {id , content} = props;
-return(
-    <div id="header">
-        <header id={id}>{content}</header> 
-    </div>
-);
+function Header(props) {
+    const { id, content } = props;
+    return (
+        <div id="header">
+            <header id={id}>{content}</header>
+        </div>
+    );
+}
 
 export default Header
